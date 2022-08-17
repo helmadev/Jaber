@@ -16,3 +16,26 @@ Possibilities:
 * Validator of mobile number and fixed contact number
 * Database of Iranian cities and provinces along with root bindings
 * Find the bank by card number
+
+#Install Package
+
+To install this package, you need Laravel version 6 or higher. To install with Composer, use the following command.
+
+<div dir="ltr">
+
+```bash
+composer require helmadev/Jaber
+```
+
+</div>
+
+Then you can create Jaber config file with this command.
+
+<div dir="ltr">
+
+```bash
+php artisan vendor:publish --provider=Jaber\\JaberServiceProvider
+```
+
+</div>
+
