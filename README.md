@@ -65,4 +65,36 @@ trait
 
 </div>
 
+Add to the model you want.
+
+<div dir="ltr">
+
+`use Jaber\EloquentHelper;
+
+class User extends Model
+{
+    use EloquentHelper; // trait
+}`
+
+</div>
+
+Then you can easily access the specifications daily. Just add the extension to the desired field
+
+_fa
+
+add.
+
+<div dir="ltr">
+
+`$user = User::where(...)->first();
+$user->created_at_fa // as a class Hekmatinasser\Verta\Verta
+$user->created_at_fa_f // 1390/1/1
+$user->created_at_fa_ft // 1390/1/1 12:00
+$user->created_at_fa_ftt // 1390/1/1 12:00:00
+$user->updated_at_fa->format("%B %d %Y") // farvardin 01 1390`
+
+</div>
+
+For better management, you can refer to <a href="https://github.com/hekmatinasser/verta"> Verta </a> documentation. You can also use the same method by setting the date.
+
 
