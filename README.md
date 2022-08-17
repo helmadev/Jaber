@@ -39,3 +39,30 @@ php artisan vendor:publish --provider=Jaber\\JaberServiceProvider
 
 </div>
 
+config file in the path:
+
+<div dir="ltr">
+
+```
+config/jaber.php
+```
+
+</div>
+
+You can change the configuration by editing this file.
+If you don't want to use the city and province feature.
+Set geo to false.
+In this way, the related tables will not be created.
+
+## Save and restore solar date
+This package allows you to easily convert the dates in the Laravel model to <a href="https://github.com/hekmatinasser/verta"> Verta </a> class. To begin:
+
+trait
+
+<div dir="ltr">
+
+`Jaber\EloquentHelper`
+
+</div>
+
+
