@@ -6,3 +6,13 @@ I always had a series of codes that every time I created a new project, I would 
 fork and pull request
 
 Make a guest 😁.
+
+Possibilities:
+
+* Save and retrieve solar date in Eloquent
+* Betting on a solar date query
+* Middleware to repair K and Arabic letters and Persian and Arabic numbers
+* Persian slog preparation function
+* Validator of mobile number and fixed contact number
+* Database of Iranian cities and provinces along with root bindings
+* Find the bank by card number
