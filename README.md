@@ -69,18 +69,24 @@ Add to the model you want.
 
 <div dir="ltr">
 
-`use Jaber\EloquentHelper;
+```php
+use Jaber\EloquentHelper;
 
 class User extends Model
 {
     use EloquentHelper; // trait
-}`
+}
+```
 
 </div>
 
 Then you can easily access the specifications daily. Just add the extension to the desired field
 
-_fa
+<div dir="ltr">
+
+`_fa`
+
+</div>
 
 add.
 
