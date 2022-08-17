@@ -86,12 +86,14 @@ add.
 
 <div dir="ltr">
 
-`$user = User::where(...)->first();
-$user->created_at_fa // as a class Hekmatinasser\Verta\Verta
+```php
+$user = User::where(...)->first();
+$user->created_at_fa // As a Class Hekmatinasser\Verta\Verta
 $user->created_at_fa_f // 1390/1/1
 $user->created_at_fa_ft // 1390/1/1 12:00
 $user->created_at_fa_ftt // 1390/1/1 12:00:00
-$user->updated_at_fa->format("%B %d %Y") // farvardin 01 1390`
+$user->updated_at_fa->format("%B %d %Y") // Farvardin 01 1390
+```
 
 </div>
 
