@@ -17,7 +17,7 @@ Possibilities:
 * Database of Iranian cities and provinces along with root bindings
 * Find the bank by card number
 
-##Install Package
+## Install Package
 
 To install this package, you need Laravel version 6 or higher. To install with Composer, use the following command.
 
